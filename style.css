@@ -29,8 +29,21 @@ header h1 {
 }
 
 img {
-  margin: 20px;
+  margin: 40px;
   box-shadow: 1px 1px 12px #555;
+}
+
+.social_medias {
+  display: flex;
+  justify-content: center;
+}
+
+.all_medias {
+  display: flex;
+}
+
+.fab {
+  margin: 10px
 }
 
 footer {
@@ -70,91 +83,71 @@ a:link {
   color: #cbb079;
 }
 
-.example_c {
-color: #494949 !important;
-text-transform: uppercase;
-text-decoration: none;
-background: #ffffff;
-padding: 20px;
-border: 4px solid #494949 !important;
-display: inline-block;
-transition: all 0.4s ease 0s;
+.school_button {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #eeeeee;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin: 40px;
 }
 
-.example_c:hover {
-color: #ffffff !important;
-background: #f6b93b;
-border-color: #f6b93b !important;
-transition: all 0.4s ease 0s;
+.school_button:hover {
+  color: #eeeeee !important;
+  background: #cbb079;
+  border-color: #cbb079 !important;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
 }
-
-
 
 /* MEDIA QUERIES */
-
 /*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
-
 @media (min-width: 1281px) {
-
   /* CSS */
-
 }
 
 /*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
-
-
 @media (min-width: 1025px) and (max-width: 1280px) {
-
   /* CSS */
-
 }
 
 /*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-
 @media (min-width: 768px) and (max-width: 1024px) {
-
   /* CSS */
-
 }
 
 /*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
-
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
   /* CSS */
-
 }
 
 /*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
-
 @media (min-width: 481px) and (max-width: 767px) {
-
   /* CSS */
-
 }
 
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
-
 @media (min-width: 320px) and (max-width: 480px) {
-
   /* CSS */
-
 }
